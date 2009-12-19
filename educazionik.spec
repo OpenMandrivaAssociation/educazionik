@@ -3,18 +3,13 @@
 %define version 2.0.0
 %define prerel	beta1
 
-# Macros for in the menu-file.
-#%-define section Edu 
-#%-define title Mailody
-
-
 Name:           %{name}
 Version:        %{version}
 Summary:        Italian educational project
 Summary(it):    Raccolta di programmi educativi
 Release:        %mkrel 0.1
-License:        GPL
-Group:          Education/Languages
+License:        GPLv2+
+Group:          Education
 URL:            http://sourceforge.net/projects/educazionik/
 
 Source0:        %{name}-%{version}-%{prerel}.tar.bz2
