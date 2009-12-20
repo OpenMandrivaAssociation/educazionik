@@ -7,7 +7,7 @@ Name:           %{name}
 Version:        %{version}
 Summary:        Italian educational project
 Summary(it):    Raccolta di programmi educativi
-Release:        %mkrel 0.1
+Release:        %mkrel 0.2
 License:        GPLv2+
 Group:          Education
 URL:            http://sourceforge.net/projects/educazionik/
@@ -24,7 +24,7 @@ Educazionik is an educational project for (at the moment)
 Italian primary school students.
 
 %description -l it
-Educazionik è unaraccolta di programmi educativi rivolta
+Educazionik è un araccolta di programmi educativi rivolta
 agli studenti delle scuole primarie
 
 %files 
