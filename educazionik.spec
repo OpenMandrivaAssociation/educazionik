@@ -1,13 +1,13 @@
 # Basic macros
 %define name    educazionik 
 %define version 2.0.0
-%define prerel	beta1
+%define prerel	rc1
 
 Name:           %{name}
 Version:        %{version}
 Summary:        Italian educational project
 Summary(it):    Raccolta di programmi educativi
-Release:        %mkrel 0.2
+Release:        %mkrel 0.3
 License:        GPLv2+
 Group:          Education
 URL:            http://sourceforge.net/projects/educazionik/
@@ -32,6 +32,7 @@ agli studenti delle scuole primarie
 %{_bindir}/*
 %{_datadir}/applications/*.desktop
 %{_datadir}/apps/%{name}/*
+%{_docdir}/%{name}/*
 %{_miconsdir}/*.png
 %{_iconsdir}/*.png
 %{_liconsdir}/*.png
@@ -54,9 +55,9 @@ cd build
 make DESTDIR=%buildroot install
 #make CMAKE_INSTALL_PREFIX=%buildroot install
 cd ..
-install -m644 common/educazionik16x16.png -D %{buildroot}%{_miconsdir}/%{name}.png
-install -m644 common/educazionik32x32.png -D %{buildroot}%{_iconsdir}/%{name}.png
-install -m644 common/educazionik48x48.png -D %{buildroot}%{_liconsdir}/%{name}.png
+#install -m644 common/educazionik16x16.png -D %{buildroot}%{_miconsdir}/%{name}.png
+#install -m644 common/educazionik32x32.png -D %{buildroot}%{_iconsdir}/%{name}.png
+#install -m644 common/educazionik48x48.png -D %{buildroot}%{_liconsdir}/%{name}.png
 
 %{find_lang} %{name}
 
