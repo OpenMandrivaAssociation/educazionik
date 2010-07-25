@@ -7,7 +7,7 @@ Name:           %{name}
 Version:        %{version}
 Summary:        Italian educational project
 Summary(it):    Raccolta di programmi educativi
-Release:        %mkrel 0.3
+Release:        %mkrel 0.4
 License:        GPLv2+
 Group:          Education
 URL:            http://sourceforge.net/projects/educazionik/
