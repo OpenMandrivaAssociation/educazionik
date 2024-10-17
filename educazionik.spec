@@ -10,7 +10,7 @@ Summary(it):    Raccolta di programmi educativi
 Release:        %mkrel 0.4
 License:        GPLv2+
 Group:          Education
-URL:            http://sourceforge.net/projects/educazionik/
+URL:            https://sourceforge.net/projects/educazionik/
 
 Source0:        %{name}-%{version}-%{prerel}.tar.bz2
 
